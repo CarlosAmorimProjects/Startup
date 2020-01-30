@@ -1,0 +1,211 @@
+// @import "node_modules/bootstrap/scss/bootstrap";
+
+ @import "./navbar";
+ @import "./footer";
+ @import "./home";
+ @import "./_projectos";
+ @import "./segredo";
+ @import "./mensagem";
+
+
+ @media only screen and (max-width: 767px) {
+    
+    .navbar-nav {
+        width: 100%;
+        margin-left: 2px;
+        margin-top: 4px;
+    }
+    #nav-bar img
+    {
+        padding-left: 0px;
+    }
+
+    #home {
+        width: 100%;
+        height: 1000px;
+        display: block;
+    }
+    
+    #titulo {
+        color: white;
+        float: left;
+        text-align: left;
+        margin-left: 40px;
+        margin-top: 240px;
+        font-size: 43px;
+        font-weight: bold;
+    
+    }
+    
+    #texto{
+        color: white;
+        float: left;
+        text-align: left;
+        margin-left: 40px;
+        margin-top: 40px;
+        line-height: 1.6;
+        font-size: 19px;
+    }
+    
+    #texto .lermais {
+        padding-top: 10px;
+        color: rgb(207, 163, 121);
+        font-size: 14px;
+    }
+
+    #projectos {
+        margin-left: 10px;
+        width: 100%;
+        display: block;
+        float: left;
+    }
+
+
+    #segredo {
+        display: block;
+        width: 100%;
+        margin-bottom: 0px;
+        height: 1000px;
+        margin-bottom: 0px;
+    }
+
+    #segredo .segredoimg {
+
+        transform: scale(0.5, 0.5);
+        margin-left: -100px;
+        margin-top: 1900px;
+        
+    }
+    
+    #segredo .segredotexto {
+        margin-left: 0px;
+        margin-top: -100px;
+    }
+
+    #mensagem {
+        background:#74cac6;
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+        height: 1200px;
+    }
+
+    #mensagem .mensagemtexto {
+        margin-left: 10px;
+        margin-top: 10px;
+        color: black;
+    }
+
+    #mensagem .form {
+        width: 260px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+ }
+
+ @media only screen and (max-width: 1000px) {
+    
+    .navbar-nav {
+        width: 100%;
+        margin-left: 2px;
+        margin-top: 4px;
+    }
+    #nav-bar img
+    {
+        padding-left: 0px;
+    }
+
+    .navbar-nav li a.nav-link-En {
+        padding-top: 40px;
+        color: red;
+        font-size: 11px;
+    }
+    
+    .navbar-nav li a.nav-link-PT {
+        padding-top: 40px;
+        color: rgb(40, 177, 131);
+        font-size: 11px;
+    }
+
+    #home {
+        width: 100%;
+        height: 650px;
+        display: block;
+    }
+    
+    #titulo {
+        color: white;
+        float: left;
+        text-align: left;
+        margin-left: 140px;
+        margin-top: 240px;
+        font-size: 43px;
+        font-weight: bold;
+    
+    }
+    
+    #texto{
+        color: white;
+        float: left;
+        text-align: left;
+        margin-left: 140px;
+        margin-top: 40px;
+        line-height: 1.6;
+        font-size: 19px;
+    }
+    
+    #texto .lermais {
+        padding-top: 10px;
+        color: rgb(207, 163, 121);
+        font-size: 14px;
+    }
+
+    #projectos {
+        margin-left: 110px;
+        width: 100%;
+        display: block;
+        float: left;
+    }
+
+    #segredo {
+        display: block;
+        width: 100%;
+        margin-bottom: 0px;
+        height: 1000px;
+        margin-bottom: 0px;
+    }
+
+    #segredo .segredoimg {
+
+        margin-left: 100px;
+        margin-top: 1200px;
+        
+    }
+    
+    #segredo .segredotexto {
+        margin-left: 210px;
+        margin-top: 80px;
+    }
+
+    #mensagem {
+        background:#74cac6;
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+        padding-top: 50px;
+        height: 1300px;
+    }
+
+    #mensagem .mensagemtexto {
+        margin-left: 210px;
+        margin-top: 10px;
+        color: black;
+    }
+
+    #mensagem .form {
+        width: 260px;
+        margin-top: 50px;
+        margin-left: 210px;
+    }
+ }
+

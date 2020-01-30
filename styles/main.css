@@ -1,0 +1,424 @@
+/*------------Navigation-Bar--------*/
+#nav-bar {
+  top: 0%;
+  z-index: 10;
+  background-color: black;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-brand img {
+  height: 50px;
+  padding-left: 373px;
+  margin-top: 45px;
+  background-color: black;
+}
+
+.navbar-nav {
+  margin-left: 230px;
+  margin-top: 40px;
+}
+
+.navbar-nav li {
+  padding: 0 7px;
+}
+
+.navbar-nav li a {
+  float: right;
+}
+
+#nav-bar ul li a:hover {
+  color: #413e3e !important;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.nav-link {
+  color: #6d6b6b !important;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.navbar-nav li a.nav-link-En {
+  padding-top: 11px;
+  color: red;
+  font-size: 11px;
+}
+
+.navbar-nav li a.nav-link-PT {
+  padding-top: 11px;
+  color: #28b183;
+  font-size: 11px;
+}
+
+.navbar-nav li a.nav-link-callonme {
+  margin-top: 7px;
+  background: #e66060;
+  color: #fff;
+  padding: 1px 2px;
+  text-align: center;
+  text-decoration: none;
+  width: 110px;
+  border-radius: 14px;
+  font-size: 13px;
+}
+
+.navbar-nav li a.nav-link-callonme ::after {
+  display: none;
+}
+
+#footer {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80px;
+}
+
+#footer h1 {
+  font-size: 14px;
+  padding-top: 23px;
+  color: white;
+}
+
+#footer img {
+  padding-top: 20px;
+  padding-left: 10px;
+  width: 140px;
+  height: 38px;
+}
+
+#home {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 502px;
+}
+
+#titulo {
+  color: white;
+  float: left;
+  text-align: left;
+  margin-left: 400px;
+  margin-top: 250px;
+  font-size: 43px;
+  font-weight: bold;
+}
+
+#texto {
+  color: white;
+  float: right;
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 270px;
+  line-height: 1.6;
+  font-size: 19px;
+}
+
+#texto .lermais {
+  padding-top: 10px;
+  color: #cfa379;
+  font-size: 14px;
+}
+
+#projectos {
+  margin-left: 370px;
+  margin-top: 70px;
+  width: 1200px;
+}
+
+#projectos h1 {
+  font-size: 31px;
+  font-weight: bold;
+}
+
+#projectos h2 {
+  padding-top: 10px;
+  font-size: 15px;
+  color: red;
+  padding-bottom: 80px;
+}
+
+#projectos button {
+  margin-left: 535px;
+  margin-top: 10px;
+  background: #ed6a5a;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+}
+
+#segredo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  height: 530px;
+  margin-bottom: 90px;
+}
+
+#segredo .segredoimg {
+  margin-left: 350px;
+  margin-top: 90px;
+}
+
+#segredo .segredotexto {
+  margin-left: 200px;
+  margin-top: 140px;
+}
+
+#segredo .segredotexto h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#segredo .segredotexto h2 {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+#mensagem {
+  background: #74cac6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  padding-bottom: 50px;
+  height: 820px;
+}
+
+#mensagem .mensagemtexto {
+  margin-left: 380px;
+  margin-top: 140px;
+}
+
+#mensagem .mensagemtexto h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#mensagem .mensagemtexto h2 {
+  font-size: 18px;
+  padding-top: 20px;
+  line-height: 1.6;
+}
+
+#mensagem .mensagemtexto h3 {
+  font-size: 17px;
+  padding-top: 100px;
+  padding-left: 5px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#mensagem .list-unstyled {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#mensagem .list-unstyled li {
+  padding: 10px;
+}
+
+#mensagem .form {
+  width: 600px;
+  margin-top: 150px;
+  margin-left: 240px;
+}
+
+#mensagem .form .form-group {
+  padding: 1px;
+}
+
+#mensagem .form button {
+  background: #ed6a5a;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    width: 100%;
+    margin-left: 2px;
+    margin-top: 4px;
+  }
+  #nav-bar img {
+    padding-left: 0px;
+  }
+  #home {
+    width: 100%;
+    height: 1000px;
+    display: block;
+  }
+  #titulo {
+    color: white;
+    float: left;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 240px;
+    font-size: 43px;
+    font-weight: bold;
+  }
+  #texto {
+    color: white;
+    float: left;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    line-height: 1.6;
+    font-size: 19px;
+  }
+  #texto .lermais {
+    padding-top: 10px;
+    color: #cfa379;
+    font-size: 14px;
+  }
+  #projectos {
+    margin-left: 10px;
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  #segredo {
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 1000px;
+    margin-bottom: 0px;
+  }
+  #segredo .segredoimg {
+    -webkit-transform: scale(0.5, 0.5);
+            transform: scale(0.5, 0.5);
+    margin-left: -100px;
+    margin-top: 1900px;
+  }
+  #segredo .segredotexto {
+    margin-left: 0px;
+    margin-top: -100px;
+  }
+  #mensagem {
+    background: #74cac6;
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+    height: 1200px;
+  }
+  #mensagem .mensagemtexto {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+  }
+  #mensagem .form {
+    width: 260px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar-nav {
+    width: 100%;
+    margin-left: 2px;
+    margin-top: 4px;
+  }
+  #nav-bar img {
+    padding-left: 0px;
+  }
+  .navbar-nav li a.nav-link-En {
+    padding-top: 40px;
+    color: red;
+    font-size: 11px;
+  }
+  .navbar-nav li a.nav-link-PT {
+    padding-top: 40px;
+    color: #28b183;
+    font-size: 11px;
+  }
+  #home {
+    width: 100%;
+    height: 650px;
+    display: block;
+  }
+  #titulo {
+    color: white;
+    float: left;
+    text-align: left;
+    margin-left: 140px;
+    margin-top: 240px;
+    font-size: 43px;
+    font-weight: bold;
+  }
+  #texto {
+    color: white;
+    float: left;
+    text-align: left;
+    margin-left: 140px;
+    margin-top: 40px;
+    line-height: 1.6;
+    font-size: 19px;
+  }
+  #texto .lermais {
+    padding-top: 10px;
+    color: #cfa379;
+    font-size: 14px;
+  }
+  #projectos {
+    margin-left: 110px;
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  #segredo {
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 1000px;
+    margin-bottom: 0px;
+  }
+  #segredo .segredoimg {
+    margin-left: 100px;
+    margin-top: 1200px;
+  }
+  #segredo .segredotexto {
+    margin-left: 210px;
+    margin-top: 80px;
+  }
+  #mensagem {
+    background: #74cac6;
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    height: 1300px;
+  }
+  #mensagem .mensagemtexto {
+    margin-left: 210px;
+    margin-top: 10px;
+    color: black;
+  }
+  #mensagem .form {
+    width: 260px;
+    margin-top: 50px;
+    margin-left: 210px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

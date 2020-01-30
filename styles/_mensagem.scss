@@ -1,0 +1,68 @@
+#mensagem {
+    background: #74cac6;
+    display: flex;
+    color: white;
+    padding-bottom: 50px;
+    height: 820px;
+}
+
+#mensagem .mensagemtexto {
+    margin-left: 380px;
+    margin-top: 140px;
+}
+
+
+#mensagem .mensagemtexto h1 {
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+#mensagem .mensagemtexto h2 {
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 1.6;
+    
+}
+
+#mensagem .mensagemtexto h3 {
+    font-size: 17px;
+    padding-top: 100px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+#mensagem .list-unstyled {
+    display: inline-flex;
+
+}
+
+#mensagem .list-unstyled li {
+    padding: 10px;
+    
+}
+
+
+#mensagem .form {
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 240px;
+}
+
+#mensagem .form .form-group{
+    padding: 1px;
+}
+
+
+
+#mensagem .form button {
+    background: #ed6a5a;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
