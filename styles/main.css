@@ -48,13 +48,14 @@
 }
 
 .navbar-nav li a.nav-link-En {
-  padding-top: 11px;
+  padding-top: 12px;
+  padding-left: 4px;
   color: red;
   font-size: 11px;
 }
 
 .navbar-nav li a.nav-link-PT {
-  padding-top: 11px;
+  padding-top: 12px;
   color: #28b183;
   font-size: 11px;
 }
@@ -68,7 +69,7 @@
   text-decoration: none;
   width: 110px;
   border-radius: 14px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .navbar-nav li a.nav-link-callonme ::after {
@@ -134,8 +135,8 @@
 }
 
 #projectos {
-  margin-left: 370px;
-  margin-top: 70px;
+  margin-left: 390px;
+  margin-top: 80px;
   width: 1200px;
 }
 
@@ -159,7 +160,116 @@
           box-sizing: border-box;
   border-radius: 20px;
   border: none;
-  font-size: 12px;
+  font-size: 20px;
+}
+
+#projectos .row .field1 {
+  position: inherit;
+  padding-left: initial;
+}
+
+#projectos .row .field1 img {
+  width: 250px;
+  height: 150px;
+}
+
+#projectos .row .field2 {
+  margin-left: -58px;
+}
+
+#projectos .row .field2 img {
+  width: 250px;
+  height: 150px;
+}
+
+#projectos .row .field3 {
+  margin-left: -115px;
+}
+
+#projectos .row .field3 img {
+  width: 250px;
+  height: 150px;
+}
+
+#projectos .row .field4 {
+  margin-left: -172px;
+}
+
+#projectos .row .field4 img {
+  width: 250px;
+  height: 150px;
+}
+
+#projectos .row .field5 {
+  margin-left: 0px;
+}
+
+#projectos .row .field5 img {
+  width: 250px;
+  height: 150px;
+}
+
+#projectos .row .field6 {
+  margin-left: -58px;
+}
+
+#projectos .row .field6 img {
+  width: 250px;
+  height: 150px;
+}
+
+#projectos .row .field7 {
+  margin-left: -115px;
+}
+
+#projectos .row .field7 img {
+  width: 250px;
+  height: 150px;
+}
+
+#projectos .row .field8 {
+  margin-left: -172px;
+}
+
+#projectos .row .field8 img {
+  width: 250px;
+  height: 150px;
+}
+
+#projectos .row .field9 {
+  margin-left: 0px;
+}
+
+#projectos .row .field9 img {
+  width: 250px;
+  height: 150px;
+}
+
+#projectos .row .field10 {
+  margin-left: -58px;
+}
+
+#projectos .row .field10 img {
+  width: 250px;
+  height: 150px;
+}
+
+.hover-zoomin a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-zoomin img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.hover-zoomin:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #segredo {

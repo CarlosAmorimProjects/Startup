@@ -58,16 +58,18 @@
 }
 
 .navbar-nav li a.nav-link-En {
-    padding-top: 11px;
+    padding-top: 12px;
+    padding-left: 4px;
     color: red;
     font-size: 11px;
 }
 
 .navbar-nav li a.nav-link-PT {
-    padding-top: 11px;
+    padding-top: 12px;
     color: rgb(40, 177, 131);
     font-size: 11px;
 }
+
 
 .navbar-nav li a.nav-link-callonme {
     margin-top: 7px;
@@ -78,7 +80,7 @@
     text-decoration: none;
     width: 110px;
     border-radius: 14px;
-    font-size: 13px;
+    font-size: 16px;
     ::after {
         display: none;
     }
