@@ -1,3 +1,3 @@
 # Startup2
 
-# Website/Desafio efectuado com HTML, CSS, Bootstrap 4 e SCSS
+# Website efectuado com HTML, CSS, Bootstrap 4 e SCSS
