@@ -1,3 +1,3 @@
 # Startup2
 
-# Website efectuado com HTML, CSS, Bootstrap 4 e SCSS
+# HTML, CSS, Bootstrap 4 & SCSS
