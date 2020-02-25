@@ -1,3 +1,3 @@
-# Startup2
+# Startup
 
-# HTML, CSS, Bootstrap 4 & SCSS
+# HTML, CSS, Bootstrap 4 & SCSS Website
